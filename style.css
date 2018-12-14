@@ -1,0 +1,69 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+.row {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: row;
+	margin:25px 0;
+}
+
+.row .item{
+	flex:0 0 47%;
+}
+.row .col3{
+	flex: 0 0 33%;
+}
+
+h2{
+	margin-top:25px;
+}
+
+.row .col2{
+	flex: 0 0 50%;
+}
+
+label{
+	font-weight:bold;
+}
+input[type="number"], input[type="text"], textarea{
+	border: none;
+    color: #333;
+    background: #eee;
+    border-radius: 3px;
+    padding: 14px 16px;
+    font-size: 1rem
+}
+textarea{
+	height: 6em;
+    width: 85%;
+}
+#summary{
+	margin-top:25px;
+}
+input[type='submit']{
+	padding: 12px 16px;
+    margin: 0;
+    border: none;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1;
+    -webkit-appearance: none;
+    border-radius: 3px
+}
+input[type="submit" i]:disabled{
+	background:#F2EFEC;
+}
+#summary, #product-summary{
+	border-top:1px solid #F2EFEC;
+	border-bottom:1px solid #F2EFEC;
+	border-left:none;
+	border-right:none;
+	padding:1%;
+}
+.calc{
+	border-top:5px dotted #F2EFEC;
+	border-bottom:5px dotted #F2EFEC;
+	margin-top:25px;
+}
